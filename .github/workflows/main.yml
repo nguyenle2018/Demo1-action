@@ -1,0 +1,10 @@
+name: Premier WorkFlow
+on: workflow_dispatch
+jobs:
+    nomJob1: 
+        runs-on: ubuntu-latest
+        steps:
+ - name: 1st opération
+              run: echo "Hello GitHub Action !"
+      - name: 2nd opération
+              run: echo « Bye GitHub Action !"
